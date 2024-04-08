@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.section-wrapper {
+  background-color: #c6ebc5;
+  height: 100vh;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.section-content img {
+  width: 100px;
+}
+
+.section-content h2 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 100px;
+}
+
+.section-content > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.login-wrapper {
+  background-color: #fefded;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  padding: 20px;
+  height: 550px;
+}
+
+.login-content span {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.login-content > div {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-content input {
+  height: 38px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(197, 192, 192);
+  background-color: #edf3ec;
+}
+
+.login-content button {
+  background-color: #344955;
+  border: none;
+  /* margin-top: 10px; */
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+}
+
+.or {
+  margin-top: 25px;
+}
+.or hr {
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 50%;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
