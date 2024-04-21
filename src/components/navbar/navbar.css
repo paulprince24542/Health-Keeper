@@ -1,27 +1,14 @@
 .nav-wrapper {
   height: 60px;
-  background-color: #c6ebc5;
+  background-color: #009efb;
+  padding-top: 10px;
 }
 
-.card-wrapper {
-  margin-top: 40px;
-  background-color: #1b4242;
-  width: 280px;
-  height: 120px;
-  border-radius: 8px;
-  color: white;
+.nav-header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 250px;
   align-items: center;
 }
 
-.card-wrapper:hover {
-  background-color: #5c8374;
-}
 
-@media only screen and (max-width: 600px) {
-  .card-wrapper {
-    width: auto;
-  }
-}
